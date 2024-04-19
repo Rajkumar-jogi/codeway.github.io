@@ -12,7 +12,7 @@ This is a simple web-based calculator application built with HTML, CSS, and Java
 
 ## Usage
 
-To use the calculator, simply open the `url` in your web browser. You can then perform calculations using the buttons provided or by typing on your keyboard. Here are some key features:
+To use the calculator, simply open the https://rajkumar-jogi.github.io/codewaycalculator.github.io/ in your web browser. You can then perform calculations using the buttons provided or by typing on your keyboard. Here are some key features:
 
 ### Clear Button (AC)
 
