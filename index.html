@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basic Calculator</title>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <div class="heading-container">
+            <h1 class="heading">My Calculator</h1>
+        </div>
+        <div class="calculator">
+            <input type="text" id="display" placeholder="0">
+            <div class="buttons">
+                <!--first row-->
+                <button id="clear" class="operator">AC</button>
+                <button class="operator" id="clearLastItem">B</button>
+                <button class="operator" id="divide" value="/">/</button>
+                <button class="operator" id="togglePlusMinus">+/-</button>
+                <!--second row-->
+                <button class="number">7</button>
+                <button class="number">8</button>
+                <button class="number">9</button>
+                <button class="operator" id="multiply">*</button>
+                <!--third row-->
+                <button class="number">4</button>
+                <button class="number">5</button>
+                <button class="number">6</button>
+                <button class="operator" id="substract">-</button>
+                <!--fourth row-->
+                <button class="number">1</button>
+                <button class="number">2</button>
+                <button class="number">3</button>
+                <button class="operator" id="addition">+</button>
+                <!--fourth row-->
+                <button class="extra-button" disabled></button>
+                <button class="number">0</button>
+                <button class="extra-button" disabled></button>
+                <button class="operator" id="calculate">=</button>  
+            </div>
+        </div>
+        <script src="index.js" ></script>
+    </body>
+</html>
